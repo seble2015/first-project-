@@ -1,0 +1,143 @@
+img {
+  max-width: 100%;
+}
+* {
+  margin: 0;
+}
+
+
+/*header section--------------------------------------------------*/
+.head-fotter {
+  background-color: rgb(165, 42, 42);
+  text-align: center;
+  color: white;
+  padding: 32px;
+}
+.my-header {
+  padding: top 27px;
+  padding: bottom 24px;
+  color: aliceblue;
+  text-align: center;
+}
+.banner img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/*puppies-section=======================================================*/
+.missing-puppy {
+  display: none;
+}
+
+.title-wrapper {
+  text-align: center;
+  margin-top: 1%;
+  font-size: 20px;
+}
+.missing-wrapper {
+  text-align: center;
+  padding-top: 4px;
+  padding-top: 4px;
+}
+.puppies-section img {
+  width: 100%;
+}
+.puppies-section {
+  padding-bottom: 1%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 1%;
+  padding-right: 2%;
+}
+.puppy1 {
+  padding-bottom: 30px;
+}
+/*.more-puppies======================================================================*/
+.more-puppies-warpper img {
+  width: 100%;
+  display: flex;
+  width: 980px;
+}
+.missing-wrapper h2 {
+  text-align: center;
+  padding-top: 0px;
+  font-size: 30px;
+}
+.puppy3 {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+.puppy4 {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+/*======================footer===========================================*/
+.head-fotter {
+  margin-left: 0%;
+  margin-right: 0;
+}
+.my-footer {
+  max-width: 100%;
+  text-align: center;
+  background-color: rgb(15, 136, 4);
+  max-width: 100%;
+  padding: 20px;
+  margin-left: none;
+  margin-right: none;
+}
+.video{
+  display: none;
+}
+/*media quiery============================================================*/
+
+@media (min-width: 768px) {
+  .puppies-section {
+    display: flex;
+  }
+  .all-wrapper {
+    margin: 0 auto;
+    width: 768px;
+  }
+
+  .missing-puppy {
+    background-color: rgb(255, 0, 0);
+    display: block;
+  }
+  .missing-wrapper {
+    text-align: center;
+  }
+  .banner img  {
+   width: 100%;
+  }
+  .puppy1,
+  .missing-puppy,
+  .puppy2 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .more-puppies-warpper {
+    display: flex;
+    margin: 0 auto;
+    width: 768px;
+  }
+  .missing-wrapper {
+    padding-top: 50px;
+    font-size: 30px;
+  }
+  .missing-puppy {
+    height: 225px;
+  }
+ .video{
+  display: flex;
+  justify-content: center;
+
+  
+    
+  }
+  
+  }
+
